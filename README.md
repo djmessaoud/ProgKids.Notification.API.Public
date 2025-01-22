@@ -1,4 +1,10 @@
-Web service that gets real-time updates from Google Sheet (new rows added and edits) and synchronize with Mattermost. 
+Название сервиса: support-automation
+API получает от Google Apps script токен, обновленное название столбца, новое значение столбца, postID и информацию о том, является ли это чат менеджера или преподавателя.
+Затем служба обмена сообщениями отправит соответствующее сообщение (SendUpdateMessage).
+
+[MonitorService.cs] Служба, которая активно отслеживает новые добавленные строки и обрабатывает логику отправки по соответствующим каналам.
+
+<br> <br> Web service that gets real-time updates from Google Sheet (new rows added and edits) and synchronize with Mattermost. 
 
 <br>
 
